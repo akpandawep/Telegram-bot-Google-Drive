@@ -6,9 +6,9 @@ import config
 import pickle
 import telegram
 import logging
-from telegram.ext import Updater
-from telegram.ext import Updater, CommandHandler, CallbackQueryHandler ,MessageHandler
-from telegram.ext import MessageHandler, Filters
+from Pyrogram import Updater
+from Pyrogram import Updater, CommandHandler, CallbackQueryHandler ,MessageHandler
+from Pyrogram import MessageHandler, Filters
 from googleapiclient.http import MediaFileUpload
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow

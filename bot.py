@@ -4,7 +4,7 @@ from __future__ import print_function
 import os
 import config
 import pickle
-import telegram
+import Pyrogram
 import logging
 from Pyrogram import Updater
 from Pyrogram import Updater, CommandHandler, CallbackQueryHandler ,MessageHandler
